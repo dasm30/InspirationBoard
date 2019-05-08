@@ -1,0 +1,23 @@
+.image-bg {
+  height: 200px !important;
+  min-width: calc(50px + 10vw);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  cursor: pointer;
+
+  .label {
+    position: absolute;
+    bottom: .25rem;
+    left: 0px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    color: #d4d4d4;
+    background-color: #3b3b3bdb;
+    margin: inherit;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}

@@ -1,0 +1,27 @@
+.button-over-image {
+  margin-left: 2rem;
+  cursor: pointer;
+
+  .image-bg {
+    height: 100% !important;
+
+    >.button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      flex-direction: column;
+    }
+
+    >:hover {
+      background-color: #00000055;
+    }
+
+    h3 {
+      color: #fefefe;
+      margin: 0.5rem;
+      font-size: 1.5rem;
+      text-shadow: 1px 1px 4px #00000088;
+    }
+  }
+}

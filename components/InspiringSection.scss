@@ -1,0 +1,13 @@
+.inspiring-section {
+  margin: 0 2rem;
+
+  .column {
+    h2 {
+      font-size: 1.5rem;
+      color: #fefefe;
+    }
+    &.col-2 {
+      display: flex !important;
+    }
+  }
+}

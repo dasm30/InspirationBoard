@@ -1,0 +1,60 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "standard"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "parser": "babel-eslint",
+    "rules": {
+        "space-before-function-paren": 0,
+        "react/prop-types": 0,
+        "comma-dangle": [
+            2,
+            "always-multiline"
+        ],
+        "lines-between-class-members": [
+            2,
+            "never"
+        ],
+        "react/destructuring-assignment": [
+            2,
+            "always"
+        ],
+        "react/jsx-sort-props": [2,
+            {
+                "shorthandFirst": true,
+                "reservedFirst": true
+            }
+        ],
+        "object-curly-newline": ["error", {
+            "ObjectExpression": { "multiline": true, "minProperties": 4, "consistent": true },
+            "ObjectPattern": { "multiline": true, "minProperties": 4, "consistent": true },
+            "ImportDeclaration": { "multiline": true, "minProperties": 7, "consistent": true },
+            "ExportDeclaration": { "multiline": true, "minProperties": 4, "consistent": true }
+        }]
+    }/* ,
+    "settings": {
+        "import/resolver": {
+          "webpack": {
+            "config": "webpack.config.js"
+          },
+        }
+    } */
+}

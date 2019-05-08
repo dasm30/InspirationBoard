@@ -1,0 +1,32 @@
+.home {
+  padding: 2rem 2rem 2rem 0;
+  background: url(https://s.pinimg.com/webapp/style/images/bg_featured_topics-8a3789f3.jpg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-color: #333333;
+
+  .page {
+
+    >.column {
+      margin: 0 2rem;
+
+      h1 {
+        font-size: 4rem;
+        color: #fefefe
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        color: #fefefe;
+      }
+    }
+  }
+
+  &-error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}
